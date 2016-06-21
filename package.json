@@ -1,0 +1,15 @@
+{
+  "name": "erc-data-import",
+  "version": "1.0.0",
+  "description": "Import data from spreadsheet into ERC website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Clarisse LAWSON",
+  "license": "MIT",
+  "dependencies": {
+    "request-promise": "^3.0.0",
+    "xlsx": "^0.8.0"
+  }
+}
