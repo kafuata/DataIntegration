@@ -13,7 +13,7 @@ let serverBulkURL = "http://benjaminbeguin.com/erc/back/traitement.php";
 let serverSingleURL = "http://benjaminbeguin.com/erc/back/traitement_id.php";
 let workbook = xlsx.readFile("data.xlsx");
 
-let lang = 'en';
+let lang = 'fr';
 
 let sheetNames = process.argv.slice(2);
 if (sheetNames.length === 0) {
